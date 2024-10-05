@@ -131,11 +131,9 @@ const App: React.FC = () => {
                         md={4}
                         key={index}
                     >
-                        <CellCard theme={theme}>
-                            <StorageCellComponent
-                                cellInfo={cell}
-                            ></StorageCellComponent>
-                        </CellCard>
+                        <StorageCellComponent
+                            cellInfo={cell}
+                        ></StorageCellComponent>
                     </Grid>
                 ))}
             </Grid>
